@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+       <net-file value="circles.net.xml"/>
+       <route-files value="circles.rou.xml"/>
+	   <additional-files value="circles.add.xml"/>
+    </input>
+	
+	<output>
+		<tripinfo-output value="TripInfoOut.xml"/>
+		<tripinfo-output.write-unfinished value="true"/>
+		<fcd-output value="fcd.xml"/>
+	</output>
+	
+	<time>
+		<begin value="0"/>
+		<end value="60"/>
+	</time>
+</configuration>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-09 14:34:08 by Eclipse SUMO sumo Version v1_12_0+0082-e54b4ef3fd7
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\circles.net.xml"/>
+        <route-files value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\circles.rou.xml"/>
+        <additional-files value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\circles.add.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\fcd.xml"/>
+        <tripinfo-output value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\TripInfoOut.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="60"/>
+    </time>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="carflow.0" depart="0.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="60.00" routeLength="722.35" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.94" rerouteNo="1" devices="tripinfo_carflow.0 routing_carflow.0 fcd_carflow.0 Seeroad_carflow.0" vType="car" speedFactor="1.06" vaporized="end">
+        <seeroad_device MeasuredFriction="0.77" TrueFriction="0.80"/>
+    </tripinfo>
+    <tripinfo id="carflow.1" depart="3.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="3.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="57.00" routeLength="616.88" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.67" rerouteNo="1" devices="tripinfo_carflow.1 routing_carflow.1 fcd_carflow.1 Seeroad_carflow.1" vType="car" speedFactor="0.94" vaporized="end">
+        <seeroad_device MeasuredFriction="0.90" TrueFriction="0.80"/>
+    </tripinfo>
+    <tripinfo id="carflow.2" depart="6.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="6.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="54.00" routeLength="603.76" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.98" rerouteNo="1" devices="tripinfo_carflow.2 routing_carflow.2 fcd_carflow.2 Seeroad_carflow.2" vType="car" speedFactor="1.01" vaporized="end">
+        <seeroad_device MeasuredFriction="1.02" TrueFriction="1.00"/>
+    </tripinfo>
+    <tripinfo id="carflow.3" depart="9.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="9.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="51.00" routeLength="634.12" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.83" rerouteNo="1" devices="tripinfo_carflow.3 routing_carflow.3 fcd_carflow.3 Seeroad_carflow.3" vType="car" speedFactor="1.08" vaporized="end">
+        <seeroad_device MeasuredFriction="1.02" TrueFriction="1.00"/>
+    </tripinfo>
+    <tripinfo id="carflow.4" depart="12.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="12.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="48.00" routeLength="558.43" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.98" rerouteNo="1" devices="tripinfo_carflow.4 routing_carflow.4 fcd_carflow.4 Seeroad_carflow.4" vType="car" speedFactor="1.03" vaporized="end">
+        <seeroad_device MeasuredFriction="0.93" TrueFriction="1.00"/>
+    </tripinfo>
+    <tripinfo id="carflow.5" depart="15.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="15.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="45.00" routeLength="389.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.23" rerouteNo="1" devices="tripinfo_carflow.5 routing_carflow.5 fcd_carflow.5 Seeroad_carflow.5" vType="car" speedFactor="0.83" vaporized="end">
+        <seeroad_device MeasuredFriction="0.81" TrueFriction="0.80"/>
+    </tripinfo>
+    <tripinfo id="carflow.6" depart="19.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="19.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="41.00" routeLength="488.43" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.38" rerouteNo="1" devices="tripinfo_carflow.6 routing_carflow.6 fcd_carflow.6 Seeroad_carflow.6" vType="car" speedFactor="1.05" vaporized="end">
+        <seeroad_device MeasuredFriction="0.89" TrueFriction="1.00"/>
+    </tripinfo>
+    <tripinfo id="carflow.7" depart="21.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="21.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="39.00" routeLength="367.55" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.13" rerouteNo="1" devices="tripinfo_carflow.7 routing_carflow.7 fcd_carflow.7 Seeroad_carflow.7" vType="car" speedFactor="0.89" vaporized="end">
+        <seeroad_device MeasuredFriction="1.04" TrueFriction="1.00"/>
+    </tripinfo>
+    <tripinfo id="carflow.8" depart="24.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="24.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="36.00" routeLength="365.19" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.97" rerouteNo="1" devices="tripinfo_carflow.8 routing_carflow.8 fcd_carflow.8 Seeroad_carflow.8" vType="car" speedFactor="0.94" vaporized="end">
+        <seeroad_device MeasuredFriction="0.36" TrueFriction="0.30"/>
+    </tripinfo>
+    <tripinfo id="carflow.9" depart="27.00" departLane="edge1_1" departPos="5.10" departSpeed="0.00" departDelay="27.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="33.00" routeLength="293.66" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.33" rerouteNo="1" devices="tripinfo_carflow.9 routing_carflow.9 fcd_carflow.9 Seeroad_carflow.9" vType="car" speedFactor="0.86" vaporized="end">
+        <seeroad_device MeasuredFriction="0.91" TrueFriction="0.80"/>
+    </tripinfo>
+    <tripinfo id="carflow1.0" depart="30.00" departLane="edge1_1" departPos="5.60" departSpeed="0.00" departDelay="30.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="30.00" routeLength="341.94" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.43" rerouteNo="1" devices="tripinfo_carflow1.0 routing_carflow1.0 fcd_carflow1.0" vType="car2" speedFactor="1.09" vaporized="end"/>
+    <tripinfo id="carflow1.1" depart="33.00" departLane="edge1_1" departPos="5.60" departSpeed="0.00" departDelay="33.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="27.00" routeLength="289.63" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.68" rerouteNo="1" devices="tripinfo_carflow1.1 routing_carflow1.1 fcd_carflow1.1" vType="car2" speedFactor="1.03" vaporized="end"/>
+    <tripinfo id="carflow1.2" depart="37.00" departLane="edge1_1" departPos="5.60" departSpeed="0.00" departDelay="37.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="23.00" routeLength="245.05" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.15" rerouteNo="1" devices="tripinfo_carflow1.2 routing_carflow1.2 fcd_carflow1.2" vType="car2" speedFactor="1.05" vaporized="end"/>
+    <tripinfo id="carflow1.3" depart="40.00" departLane="edge1_1" departPos="5.60" departSpeed="0.00" departDelay="40.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="20.00" routeLength="211.98" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.41" rerouteNo="1" devices="tripinfo_carflow1.3 routing_carflow1.3 fcd_carflow1.3" vType="car2" speedFactor="1.12" vaporized="end"/>
+    <tripinfo id="carflow1.4" depart="44.00" departLane="edge1_1" departPos="5.60" departSpeed="0.00" departDelay="44.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="16.00" routeLength="143.50" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.58" rerouteNo="1" devices="tripinfo_carflow1.4 routing_carflow1.4 fcd_carflow1.4" vType="car2" speedFactor="0.99" vaporized="end"/>
+    <tripinfo id="carflow2.0" depart="0.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="60.00" routeLength="593.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.94" rerouteNo="1" devices="tripinfo_carflow2.0 routing_carflow2.0 fcd_carflow2.0" vType="truck" speedFactor="0.93" vaporized="end"/>
+    <tripinfo id="carflow2.1" depart="5.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="5.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="55.00" routeLength="500.42" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.99" rerouteNo="1" devices="tripinfo_carflow2.1 routing_carflow2.1 fcd_carflow2.1" vType="truck" speedFactor="0.88" vaporized="end"/>
+    <tripinfo id="carflow2.2" depart="11.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="11.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="49.00" routeLength="459.84" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.83" rerouteNo="1" devices="tripinfo_carflow2.2 routing_carflow2.2 fcd_carflow2.2" vType="truck" speedFactor="0.94" vaporized="end"/>
+    <tripinfo id="carflow2.3" depart="17.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="17.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="43.00" routeLength="361.63" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="14.19" rerouteNo="1" devices="tripinfo_carflow2.3 routing_carflow2.3 fcd_carflow2.3" vType="truck" speedFactor="0.94" vaporized="end"/>
+    <tripinfo id="carflow2.4" depart="23.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="23.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="37.00" routeLength="338.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="14.99" rerouteNo="1" devices="tripinfo_carflow2.4 routing_carflow2.4 fcd_carflow2.4" vType="truck" speedFactor="1.16" vaporized="end"/>
+    <tripinfo id="carflow2.5" depart="28.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="28.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="32.00" routeLength="251.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="13.21" rerouteNo="1" devices="tripinfo_carflow2.5 routing_carflow2.5 fcd_carflow2.5" vType="truck" speedFactor="1.02" vaporized="end"/>
+    <tripinfo id="carflow2.6" depart="33.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="33.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="27.00" routeLength="206.81" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="11.26" rerouteNo="1" devices="tripinfo_carflow2.6 routing_carflow2.6 fcd_carflow2.6" vType="truck" speedFactor="1.01" vaporized="end"/>
+    <tripinfo id="carflow2.7" depart="38.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="38.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="22.00" routeLength="165.93" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.75" rerouteNo="1" devices="tripinfo_carflow2.7 routing_carflow2.7 fcd_carflow2.7" vType="truck" speedFactor="0.98" vaporized="end"/>
+    <tripinfo id="carflow2.8" depart="42.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="42.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="18.00" routeLength="88.21" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.86" rerouteNo="1" devices="tripinfo_carflow2.8 routing_carflow2.8 fcd_carflow2.8" vType="truck" speedFactor="0.89" vaporized="end"/>
+    <tripinfo id="carflow2.9" depart="47.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="47.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="13.00" routeLength="30.56" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.34" rerouteNo="1" devices="tripinfo_carflow2.9 routing_carflow2.9 fcd_carflow2.9" vType="truck" speedFactor="0.83" vaporized="end"/>
+    <tripinfo id="carflow2.10" depart="53.00" departLane="edge1_0" departPos="5.10" departSpeed="0.00" departDelay="53.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="7.00" routeLength="7.45" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.39" rerouteNo="1" devices="tripinfo_carflow2.10 routing_carflow2.10 fcd_carflow2.10" vType="truck" speedFactor="0.87" vaporized="end"/>
+</tripinfos>

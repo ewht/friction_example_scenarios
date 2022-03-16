@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-16 13:20:13 by Eclipse SUMO sumo Version v1_12_0+1410-2912c311efd
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\traci\test.net.xml"/>
+        <route-files value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\traci\test.rou.xml"/>
+        <additional-files value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\traci\test.add.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\traci\fcd.xml"/>
+    </output>
+
+    <traci_server>
+        <remote-port value="1337"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="F:\98_CodeProjects\01_Fahrsimulator\sumo_scenarios\dbug\traci\viewsettings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="LR0" x="-160.04" y="40.49" angle="89.37" type="slow" speed="0.00" pos="5.10" lane="gneE0_0" friction="1.00" slope="0.00"/>
+        <vehicle id="RL0" x="536.74" y="324.80" angle="269.71" type="slow" speed="0.00" pos="5.10" lane="-gneE2_0" friction="1.00" slope="0.00"/>
+    </timestep>
+    <timestep time="1.00">
+        <vehicle id="LR0" x="-157.46" y="40.51" angle="89.37" type="slow" speed="2.58" pos="7.68" lane="gneE0_0" friction="0.95" slope="0.00"/>
+        <vehicle id="RL0" x="534.26" y="324.79" angle="269.71" type="slow" speed="2.48" pos="7.58" lane="-gneE2_0" friction="0.83" slope="0.00"/>
+    </timestep>
+    <timestep time="2.00">
+        <vehicle id="LR0" x="-152.43" y="40.57" angle="89.37" type="slow" speed="5.03" pos="12.71" lane="gneE0_0" friction="0.09" slope="0.00"/>
+        <vehicle id="RL0" x="529.33" y="324.77" angle="269.71" type="slow" speed="4.93" pos="12.51" lane="-gneE2_0" friction="0.97" slope="0.00"/>
+    </timestep>
+    <timestep time="3.00">
+        <vehicle id="LR0" x="-144.81" y="40.65" angle="89.37" type="slow" speed="7.62" pos="20.33" lane="gneE0_0" friction="0.12" slope="0.00"/>
+        <vehicle id="RL0" x="521.85" y="324.73" angle="269.71" type="slow" speed="7.48" pos="19.99" lane="-gneE2_0" friction="0.90" slope="0.00"/>
+    </timestep>
+    <timestep time="4.00">
+        <vehicle id="LR0" x="-134.89" y="40.76" angle="89.37" type="slow" speed="9.92" pos="30.25" lane="gneE0_0" friction="0.36" slope="0.00"/>
+        <vehicle id="RL0" x="511.86" y="324.68" angle="269.71" type="slow" speed="9.98" pos="29.98" lane="-gneE2_0" friction="1.17" slope="0.00"/>
+    </timestep>
+    <timestep time="5.00">
+        <vehicle id="LR0" x="-124.92" y="40.87" angle="89.37" type="slow" speed="9.97" pos="40.22" lane="gneE0_0" friction="0.21" slope="0.00"/>
+        <vehicle id="LR1" x="-160.04" y="40.49" angle="89.37" type="slow" speed="0.00" pos="5.10" lane="gneE0_0" friction="1.00" slope="0.00"/>
+        <vehicle id="RL0" x="502.05" y="324.63" angle="269.71" type="slow" speed="9.82" pos="39.79" lane="-gneE2_0" friction="1.06" slope="0.00"/>
+        <vehicle id="RL1" x="536.74" y="324.80" angle="269.71" type="slow" speed="0.00" pos="5.10" lane="-gneE2_0" friction="1.00" slope="0.00"/>
+    </timestep>
+    <timestep time="6.00">
+        <vehicle id="LR0" x="-114.99" y="40.98" angle="89.37" type="slow" speed="9.93" pos="50.15" lane="gneE0_0" friction="0.30" slope="0.00"/>
+        <vehicle id="LR1" x="-157.64" y="40.51" angle="89.37" type="slow" speed="2.41" pos="7.51" lane="gneE0_0" friction="0.33" slope="0.00"/>
+        <vehicle id="RL0" x="492.10" y="324.58" angle="269.71" type="slow" speed="9.95" pos="49.74" lane="-gneE2_0" friction="1.01" slope="0.00"/>
+        <vehicle id="RL1" x="534.32" y="324.79" angle="269.71" type="slow" speed="2.42" pos="7.52" lane="-gneE2_0" friction="1.05" slope="0.00"/>
+    </timestep>
+    <timestep time="7.00">
+        <vehicle id="LR0" x="-105.00" y="41.09" angle="89.37" type="slow" speed="9.99" pos="60.14" lane="gneE0_0" friction="0.26" slope="0.00"/>
+        <vehicle id="LR1" x="-152.70" y="40.57" angle="89.37" type="slow" speed="4.94" pos="12.44" lane="gneE0_0" friction="0.34" slope="0.00"/>
+        <vehicle id="RL0" x="482.29" y="324.53" angle="269.71" type="slow" speed="9.81" pos="59.55" lane="-gneE2_0" friction="0.92" slope="0.00"/>
+        <vehicle id="RL1" x="529.32" y="324.77" angle="269.71" type="slow" speed="5.00" pos="12.52" lane="-gneE2_0" friction="0.93" slope="0.00"/>
+    </timestep>
+    <timestep time="8.00">
+        <vehicle id="LR0" x="-95.01" y="41.20" angle="89.37" type="slow" speed="10.00" pos="70.14" lane="gneE0_0" friction="0.40" slope="0.00"/>
+        <vehicle id="LR1" x="-145.39" y="40.65" angle="89.37" type="slow" speed="7.31" pos="19.75" lane="gneE0_0" friction="0.28" slope="0.00"/>
+        <vehicle id="RL0" x="472.49" y="324.48" angle="269.71" type="slow" speed="9.80" pos="69.35" lane="-gneE2_0" friction="1.02" slope="0.00"/>
+        <vehicle id="RL1" x="521.73" y="324.73" angle="269.71" type="slow" speed="7.59" pos="20.11" lane="-gneE2_0" friction="0.82" slope="0.00"/>
+    </timestep>
+    <timestep time="9.00">
+        <vehicle id="LR0" x="-85.21" y="41.30" angle="89.37" type="slow" speed="9.80" pos="79.94" lane="gneE0_0" friction="0.24" slope="0.00"/>
+        <vehicle id="LR1" x="-135.65" y="40.75" angle="89.37" type="slow" speed="9.74" pos="29.49" lane="gneE0_0" friction="0.24" slope="0.00"/>
+        <vehicle id="RL0" x="462.74" y="324.43" angle="269.71" type="slow" speed="9.75" pos="79.10" lane="-gneE2_0" friction="0.98" slope="0.00"/>
+        <vehicle id="RL1" x="511.98" y="324.68" angle="269.71" type="slow" speed="9.75" pos="29.87" lane="-gneE2_0" friction="1.19" slope="0.00"/>
+    </timestep>
+    <timestep time="10.00">
+        <vehicle id="LR0" x="-75.36" y="41.41" angle="89.37" type="slow" speed="9.84" pos="89.78" lane="gneE0_0" friction="0.47" slope="0.00"/>
+        <vehicle id="LR1" x="-125.85" y="40.86" angle="89.37" type="slow" speed="9.80" pos="39.30" lane="gneE0_0" friction="0.34" slope="0.00"/>
+        <vehicle id="LR2" x="-160.04" y="40.49" angle="89.37" type="slow" speed="0.00" pos="5.10" lane="gneE0_0" friction="1.00" slope="0.00"/>
+        <vehicle id="RL0" x="452.94" y="324.38" angle="269.71" type="slow" speed="9.80" pos="88.90" lane="-gneE2_0" friction="1.14" slope="0.00"/>
+        <vehicle id="RL1" x="502.09" y="324.63" angle="269.71" type="slow" speed="9.88" pos="39.75" lane="-gneE2_0" friction="1.07" slope="0.00"/>
+        <vehicle id="RL2" x="536.74" y="324.80" angle="269.71" type="slow" speed="0.00" pos="5.10" lane="-gneE2_0" friction="1.00" slope="0.00"/>
+    </timestep>
+    <timestep time="11.00">
+        <vehicle id="LR0" x="-65.38" y="41.52" angle="89.37" type="slow" speed="9.99" pos="99.77" lane="gneE0_0" friction="0.26" slope="0.00"/>
+        <vehicle id="LR1" x="-115.92" y="40.97" angle="89.37" type="slow" speed="9.93" pos="49.23" lane="gneE0_0" friction="0.19" slope="0.00"/>
+        <vehicle id="LR2" x="-157.58" y="40.51" angle="89.37" type="slow" speed="2.46" pos="7.56" lane="gneE0_0" friction="0.43" slope="0.00"/>
+        <vehicle id="RL0" x="443.08" y="324.33" angle="269.71" type="slow" speed="9.87" pos="98.77" lane="-gneE2_0" friction="1.03" slope="0.00"/>
+        <vehicle id="RL1" x="492.28" y="324.58" angle="269.71" type="slow" speed="9.81" pos="49.57" lane="-gneE2_0" friction="0.89" slope="0.00"/>
+        <vehicle id="RL2" x="534.20" y="324.79" angle="269.71" type="slow" speed="2.54" pos="7.64" lane="-gneE2_0" friction="1.01" slope="0.00"/>
+    </timestep>
+    <timestep time="12.00">
+        <vehicle id="LR0" x="-55.43" y="41.63" angle="89.37" type="slow" speed="9.95" pos="109.72" lane="gneE0_0" friction="0.32" slope="0.00"/>
+        <vehicle id="LR1" x="-105.97" y="41.08" angle="89.37" type="slow" speed="9.94" pos="59.17" lane="gneE0_0" friction="0.27" slope="0.00"/>
+        <vehicle id="LR2" x="-152.68" y="40.57" angle="89.37" type="slow" speed="4.90" pos="12.46" lane="gneE0_0" friction="0.26" slope="0.00"/>
+        <vehicle id="RL0" x="433.23" y="324.28" angle="269.71" type="slow" speed="9.85" pos="108.62" lane="-gneE2_0" friction="1.01" slope="0.00"/>
+        <vehicle id="RL1" x="482.47" y="324.53" angle="269.71" type="slow" speed="9.81" pos="59.37" lane="-gneE2_0" friction="0.78" slope="0.00"/>
+        <vehicle id="RL2" x="529.30" y="324.77" angle="269.71" type="slow" speed="4.90" pos="12.54" lane="-gneE2_0" friction="0.91" slope="0.00"/>
+    </timestep>
+    <timestep time="13.00">
+        <vehicle id="LR0" x="-45.53" y="41.74" angle="89.37" type="slow" speed="9.90" pos="119.61" lane="gneE0_0" friction="0.23" slope="0.00"/>
+        <vehicle id="LR1" x="-96.11" y="41.19" angle="89.37" type="slow" speed="9.87" pos="69.04" lane="gneE0_0" friction="0.41" slope="0.00"/>
+        <vehicle id="LR2" x="-145.18" y="40.65" angle="89.37" type="slow" speed="7.49" pos="19.96" lane="gneE0_0" friction="0.20" slope="0.00"/>
+        <vehicle id="RL0" x="423.25" y="324.23" angle="269.71" type="slow" speed="9.98" pos="118.59" lane="-gneE2_0" friction="1.14" slope="0.00"/>
+        <vehicle id="RL1" x="472.67" y="324.48" angle="269.71" type="slow" speed="9.80" pos="69.17" lane="-gneE2_0" friction="0.96" slope="0.00"/>
+        <vehicle id="RL2" x="522.04" y="324.73" angle="269.71" type="slow" speed="7.26" pos="19.80" lane="-gneE2_0" friction="0.84" slope="0.00"/>
+    </timestep>
+    <timestep time="14.00">
+        <vehicle id="LR0" x="-35.72" y="41.85" angle="89.37" type="slow" speed="9.82" pos="129.43" lane="gneE0_0" friction="0.29" slope="0.00"/>
+        <vehicle id="LR1" x="-86.12" y="41.29" angle="89.37" type="slow" speed="9.99" pos="79.02" lane="gneE0_0" friction="0.31" slope="0.00"/>
+        <vehicle id="LR2" x="-135.42" y="40.76" angle="89.37" type="slow" speed="9.77" pos="29.72" lane="gneE0_0" friction="0.32" slope="0.00"/>
+        <vehicle id="RL0" x="413.38" y="324.18" angle="269.71" type="slow" speed="9.87" pos="128.47" lane="-gneE2_0" friction="0.80" slope="0.00"/>
+        <vehicle id="RL1" x="462.77" y="324.43" angle="269.71" type="slow" speed="9.90" pos="79.07" lane="-gneE2_0" friction="0.88" slope="0.00"/>
+        <vehicle id="RL2" x="512.36" y="324.68" angle="269.71" type="slow" speed="9.69" pos="29.48" lane="-gneE2_0" friction="0.99" slope="0.00"/>
+    </timestep>
+</fcd-export>

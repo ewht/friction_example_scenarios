@@ -1,0 +1,245 @@
+TraCITestClient output file. Date: Wed Mar 16 13:19:19 2022
+
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=gneE0_0 valueDataType=11 Double value: 1.00
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=-gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=-gneE0_0 valueDataType=11 Double value: 1.00
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=gneE0_0 valueDataType=11 Double value: 1.00
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=-gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=-gneE0_0 valueDataType=11 Double value: 1.00
+
+-> Command sent: <GetVariable>:
+  domID=170 varID=56 objID=gneE0
+.. Command acknowledged (170), [description: ]
+  CommandID=186  VariableID=56  ObjectID=gneE0 valueDataType=11 Double value: 1.00
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=gneE0_0 valueDataType=11 Double value: 0.10
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=-gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=-gneE0_0 valueDataType=11 Double value: 1.00
+
+-> Command sent: <GetVariable>:
+  domID=170 varID=56 objID=gneE0
+.. Command acknowledged (170), [description: ]
+  CommandID=186  VariableID=56  ObjectID=gneE0 valueDataType=11 Double value: 0.55
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=gneE0_0 valueDataType=11 Double value: 0.10
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=-gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=-gneE0_0 valueDataType=11 Double value: 1.00
+
+-> Command sent: <GetVariable>:
+  domID=170 varID=56 objID=gneE0
+.. Command acknowledged (170), [description: ]
+  CommandID=186  VariableID=56  ObjectID=gneE0 valueDataType=11 Double value: 0.55
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=gneE0_0 valueDataType=11 Double value: 1.50
+
+-> Command sent: <GetVariable>:
+  domID=163 varID=56 objID=-gneE0_0
+.. Command acknowledged (163), [description: ]
+  CommandID=179  VariableID=56  ObjectID=-gneE0_0 valueDataType=11 Double value: 1.00
+
+-> Command sent: <GetVariable>:
+  domID=170 varID=56 objID=gneE0
+.. Command acknowledged (170), [description: ]
+  CommandID=186  VariableID=56  ObjectID=gneE0 valueDataType=11 Double value: 1.25
+
+-> Command sent: <GetVariable>:
+  domID=170 varID=56 objID=gneE0
+.. Command acknowledged (170), [description: ]
+  CommandID=186  VariableID=56  ObjectID=gneE0 valueDataType=11 Double value: 1.25
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <Close>:
+.. Command acknowledged (127), [description: ]

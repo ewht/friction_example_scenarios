@@ -1,0 +1,76 @@
+TraCITestClient output file. Date: Wed Mar 16 13:20:13 2022
+
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SubscribeVariable>:
+  domID=212 objID=LR0 with 1 variables
+.. Command acknowledged (212), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.36
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.21
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.30
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.26
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.40
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.24
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.47
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.26
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.32
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.23
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=1
+      VariableID=126      ok=1 valueDataType=12 string value: 0.29
+
+-> Command sent: <Close>:
+.. Command acknowledged (127), [description: ]

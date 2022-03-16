@@ -1,0 +1,87 @@
+TraCITestClient output file. Date: Wed Mar 16 13:19:12 2022
+
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+
+-> Command sent: <SubscribeVariable>:
+  domID=212 objID=LR0 with 2 variables
+.. Command acknowledged (212), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.92
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.97
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.93
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.99
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 10.00
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.80
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.84
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.99
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.95
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.90
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <SimulationStep>:
+.. Command acknowledged (2), [description: ]
+  CommandID=228  ObjectID=LR0  #variables=2
+      VariableID=64      ok=1 valueDataType=11 Double value: 9.82
+      VariableID=67      ok=1 valueDataType=11 Double value: 89.37
+
+-> Command sent: <Close>:
+.. Command acknowledged (127), [description: ]

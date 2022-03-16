@@ -1,0 +1,21 @@
+repeat 5 simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0
+getvariable 0xa4 0x40 LR0
+simstep2 0

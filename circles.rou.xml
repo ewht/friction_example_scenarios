@@ -1,0 +1,13 @@
+<routes>
+   <vType id="car" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0">
+   		<param key="has.Seeroad.device" value="true" />
+   </vType>
+   <vType id="car2" type="passenger" length="5.5" accel="2.5" decel="3.2" sigma="0.8" />
+   <vType id="truck" type="truck" length="5" accel="1.2" decel="2.0" sigma="1.0" guiShape="truck" />
+   <vType id="trailer" type="trailer" length="5" accel="1.0" decel="1.8" sigma="1.0" guiShape= "truck/trailer" />
+   
+   <flow id="carflow" type="car" beg="0" end="0" number="10" departLane="1" from="edge1" to="edge2" />
+   <flow id="carflow1" type="car2" beg="0" end="0" number="5" departLane="1" from="edge1" to="edge2" />
+   <flow id="carflow2" type="truck" beg="0" end="0" departLane="0" number="80" from="edge1" to="edge2" />
+   <flow id="carflow3" type="trailer" beg="0" end="0" departLane="0" number="40" from="edge1" to="edge2" />
+</routes>

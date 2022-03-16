@@ -1,0 +1,67 @@
+<additionals>
+    <frictionCoefficient id="friction_0" lanes="edge1_0" pos="0.00,0.00">
+		<frictionStep time="10" friction="0.5"/>
+		<frictionStep time="20" friction="0.7"/>
+		<frictionStep time="30" friction="1.0"/>
+		<frictionStep time="40" friction="0.3"/>
+		<frictionStep time="50" friction="0.8"/>
+	</frictionCoefficient>
+    
+	<frictionCoefficient id="friction_1" lanes="edge1_2" pos="0.00,0.00">
+		<frictionStep time="20" friction="0.5"/>
+		<frictionStep time="30" friction="0.7"/>
+		<frictionStep time="40" friction="1.0"/>
+		<frictionStep time="50" friction="0.3"/>
+		<frictionStep time="60" friction="0.8"/>
+	</frictionCoefficient>
+    
+	<rerouter id="rerouter_0" edges="edge1" probability="1.00" off="0" pos="17.60,5.20">
+        <interval begin="0.00" end="1000000000.00"/>
+    </rerouter>
+    <rerouter id="rerouter_1" edges="edge2" probability="1.00" off="0" pos="0.00,0.00">
+        <interval begin="0.00" end="1000000000.00"/>
+    </rerouter>
+    
+    <poly id="poly_0" type="building" color="green" fill="0" layer="0.00" shape="-235.05,11.20 -166.96,10.74 -166.96,32.97 -235.05,32.97 -235.05,11.20"/>
+    <poly id="poly_1" type="building" color="green" fill="0" layer="0.00" shape="-235.51,-14.74 -140.56,-15.20 -140.56,-63.84 -236.44,-64.30 -235.97,-15.67"/>
+    <poly id="poly_10" type="building" color="green" fill="0" layer="0.00" shape="153.46,12.27 153.46,122.01 284.16,122.62 284.77,16.58 152.23,12.27"/>
+    <poly id="poly_11" type="building" color="green" fill="0" layer="0.00" shape="33.86,-18.56 33.86,-62.94 118.32,-62.94 118.94,-20.40 34.48,-19.17"/>
+    <poly id="poly_12" type="building" color="green" fill="0" layer="0.00" shape="36.32,-80.21 34.48,-138.16 126.33,-138.16 125.72,-80.82 36.32,-80.21"/>
+    <poly id="poly_13" type="building" color="green" fill="0" layer="0.00" shape="34.48,-148.64 33.86,-234.95 59.14,-234.95 60.98,-147.40 33.24,-148.64"/>
+    <poly id="poly_14" type="building" color="green" fill="0" layer="0.00" shape="160.86,-18.56 160.24,-45.06 287.86,-45.68 287.24,-17.94 160.86,-19.17"/>
+    <poly id="poly_15" type="building" color="green" fill="0" layer="0.00" shape="332.86,-19.17 331.63,-43.83 372.93,-45.06 372.93,-18.56 331.63,-19.79"/>
+    <poly id="poly_16" type="building" color="green" fill="0" layer="0.00" shape="309.43,43.09 308.20,15.97 374.78,16.58 373.55,41.24 308.82,41.86"/>
+    <poly id="poly_17" type="building" color="green" fill="0" layer="0.00" shape="451.84,241.61 452.46,148.52 482.05,147.28 482.67,240.99 451.23,241.61"/>
+    <poly id="poly_18" type="building" color="green" fill="0" layer="0.00" shape="451.23,115.22 453.08,17.82 485.75,17.82 485.75,113.99 451.84,115.22"/>
+    <poly id="poly_19" type="building" color="green" fill="0" layer="0.00" shape="400.67,-17.94 400.06,-47.53 486.98,-47.53 485.75,-17.32 401.29,-17.94"/>
+    <poly id="poly_2" type="building" color="green" fill="0" layer="0.00" shape="-122.49,-17.05 -122.49,-33.27 -74.79,-33.27 -74.79,-18.44 -122.49,-17.52"/>
+    <poly id="poly_20" type="building" color="green" fill="0" layer="0.00" shape="522.37,244.19 522.37,212.99 539.33,213.67 539.33,244.19 521.69,243.51"/>
+    <poly id="poly_21" type="building" color="green" fill="0" layer="0.00" shape="523.73,198.07 524.41,165.52 542.04,166.88 541.36,200.11 523.05,198.07"/>
+    <poly id="poly_22" type="building" color="green" fill="0" layer="0.00" shape="306.04,235.37 308.08,151.96 391.49,153.31 389.46,238.08 305.37,234.69"/>
+    <poly id="poly_23" type="building" color="green" fill="0" layer="0.00" shape="527.80,142.46 528.48,78.04 554.25,78.04 554.25,147.21 526.44,146.53 527.12,139.75"/>
+    <poly id="poly_24" type="building" color="green" fill="0" layer="0.00" shape="535.94,49.56 535.26,13.62 730.56,12.94 728.53,48.20 535.26,50.24"/>
+    <poly id="poly_25" type="building" color="green" fill="0" layer="0.00" shape="947.57,40.74 946.21,10.90 983.51,11.58 981.48,45.49 946.89,42.78"/>
+    <poly id="poly_26" type="building" color="green" fill="0" layer="0.00" shape="950.96,247.58 951.64,210.28 985.55,209.60 985.55,248.25 950.96,247.58"/>
+    <poly id="poly_27" type="building" color="green" fill="0" layer="0.00" shape="694.62,177.05 697.33,79.40 809.23,78.72 805.84,182.47 695.30,179.76"/>
+    <poly id="poly_28" type="building" color="green" fill="0" layer="0.00" shape="594.93,238.08 594.93,215.70 613.24,215.70 613.24,239.44 594.26,238.76"/>
+    <poly id="poly_29" type="building" color="green" fill="0" layer="0.00" shape="595.61,171.62 596.29,142.46 620.03,142.46 618.67,173.66 595.61,172.98"/>
+    <poly id="poly_3" type="building" color="green" fill="0" layer="0.00" shape="-59.50,-18.44 -11.33,-18.91 -12.72,-129.14 -55.33,-129.14 -58.57,-18.44"/>
+    <poly id="poly_30" type="building" color="green" fill="0" layer="0.00" shape="595.61,101.77 594.93,66.51 626.81,67.87 625.45,105.84 594.26,105.84 595.61,101.10"/>
+    <poly id="poly_31" type="building" color="green" fill="0" layer="0.00" shape="761.08,48.20 759.72,12.94 921.12,10.90 920.44,46.17 760.40,47.52"/>
+    <poly id="poly_32" type="building" color="green" fill="0" layer="0.00" shape="529.15,-20.97 529.83,-52.16 645.79,-51.49 644.44,-20.29 530.51,-20.97"/>
+    <poly id="poly_33" type="building" color="green" fill="0" layer="0.00" shape="681.74,-22.33 682.41,-50.81 743.45,-52.16 742.77,-20.29 681.74,-21.65"/>
+    <poly id="poly_34" type="building" color="green" fill="0" layer="0.00" shape="771.93,-22.33 771.93,-52.16 853.31,-52.84 852.63,-18.26 771.25,-20.97"/>
+    <poly id="poly_35" type="building" color="green" fill="0" layer="0.00" shape="533.90,-77.26 531.87,-210.85 569.16,-210.17 571.88,-77.26 533.90,-77.26"/>
+    <poly id="poly_36" type="building" color="green" fill="0" layer="0.00" shape="617.99,-81.32 616.63,-206.10 702.76,-205.43 702.76,-144.39 773.96,-143.71 773.29,-71.83 618.67,-75.22 618.67,-82.68"/>
+    <poly id="poly_37" type="building" color="green" fill="0" layer="0.00" shape="978.76,-21.65 891.28,-20.29 891.28,-50.13 927.23,-50.13 923.84,-117.94 978.09,-118.62 979.44,-23.00"/>
+    <poly id="poly_38" type="building" color="green" fill="0" layer="0.00" shape="938.08,-153.89 935.36,-237.98 976.05,-237.30 977.41,-147.78 937.40,-142.36 938.08,-152.53"/>
+    <poly id="poly_39" type="building" color="green" fill="0" layer="0.00" shape="1020.81,46.85 1023.52,13.62 1124.57,14.29 1123.89,50.24 1018.10,48.20"/>
+    <poly id="poly_4" type="building" color="green" fill="0" layer="0.00" shape="-112.77,33.43 -112.77,9.81 -11.79,8.88 -11.79,35.29 -113.69,33.90"/>
+    <poly id="poly_40" type="building" color="green" fill="0" layer="0.00" shape="1028.27,-87.43 1083.88,-88.11 1083.88,-15.54 1131.35,-15.54 1125.92,-137.61 1028.95,-133.54 1028.95,-84.72"/>
+    <poly id="poly_41" type="building" color="green" fill="0" layer="0.00" shape="1180.85,-19.61 1243.92,-18.94 1244.60,-50.13 1180.85,-46.06 1181.53,-20.97"/>
+    <poly id="poly_5" type="building" color="green" fill="0" layer="0.00" shape="19.68,44.94 19.06,15.35 137.43,14.74 138.05,45.56 20.30,45.56"/>
+    <poly id="poly_6" type="building" color="green" fill="0" layer="0.00" shape="20.91,239.76 20.91,205.85 62.22,205.85 62.22,238.52 21.53,239.14"/>
+    <poly id="poly_7" type="building" color="green" fill="0" layer="0.00" shape="-41.97,232.98 -41.35,163.31 -11.76,163.31 -11.15,235.44 -41.97,232.36"/>
+    <poly id="poly_8" type="building" color="green" fill="0" layer="0.00" shape="22.76,195.99 22.76,155.91 64.07,155.91 64.68,192.29 23.99,194.14"/>
+    <poly id="poly_9" type="building" color="green" fill="0" layer="0.00" shape="22.76,142.35 64.68,142.97 64.68,97.35 23.99,99.20 22.76,142.97"/>
+</additionals>

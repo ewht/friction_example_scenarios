@@ -1,0 +1,7 @@
+#PS or VS run sumo with options
+
+.\sumo.exe -c "..\traci\test.sumocfg" --remote-port 1337
+
+#PowerShell command from sumo_bin folder
+
+TraciTestClient.exe -def "..\traci\def.file#" -p 1337 -o log_#.txt

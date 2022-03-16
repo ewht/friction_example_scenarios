@@ -1,0 +1,19 @@
+<additionals>
+    <frictionCoefficient id="frictionCoefficient_0" lanes="gneE0_0" pos="185.48,47.62">
+        <frictionStep time="0.00" friction="1.0"/>
+        <frictionStep time="2.00" friction="0.10"/>
+        <frictionStep time="4.00" friction="0.20"/>
+        <frictionStep time="6.00" friction="0.30"/>
+        <frictionStep time="40.00" friction="0.50"/>
+        <frictionStep time="50.00" friction="1.50"/>
+        <frictionStep time="60.00" friction="0.80"/>
+        <frictionStep time="70.00" friction="0.60"/>
+        <frictionStep time="80.00" friction="0.70"/>
+        <frictionStep time="90.00" friction="0.99"/>
+    </frictionCoefficient>
+    <variableSpeedSign id="variableSpeedSign_0" lanes="-gneE0_0" pos="-156.83,47.21">
+        <step time="0.00" speed="50.00"/>
+        <step time="10.00" speed="10.00"/>
+        <step time="20.00" speed="30.00"/>
+    </variableSpeedSign>
+</additionals>

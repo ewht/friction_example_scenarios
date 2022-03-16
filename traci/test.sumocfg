@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<configuration>
+
+   <input>
+       <net-file value="test.net.xml"/>
+       <route-files value="test.rou.xml"/>
+	   <additional-files value="test.add.xml"/>
+   </input>
+   
+   	<output>
+        <fcd-output value="fcd.xml"/>
+ 	</output>
+ 
+     <gui_only>
+        <gui-settings-file value="viewsettings.xml"/>
+    </gui_only>
+</configuration>

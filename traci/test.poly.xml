@@ -1,0 +1,22 @@
+<additionals>
+    <poly id="poly_0" color="green" fill="0" layer="0.00" shape="-169.33,50.44 191.52,53.66 191.79,43.47 -169.86,39.18 -169.59,50.71"/>
+    <poly id="poly_1" color="green" fill="0" layer="0.00" shape="192.39,43.94 191.09,326.31 199.73,325.88 201.02,43.94 191.96,43.94 192.39,43.94"/>
+    <poly id="poly_2" color="green" fill="0" layer="0.00" shape="198.86,327.17 547.29,328.90 546.86,315.95 199.73,315.09 199.73,327.17 198.86,327.17"/>
+	<frictionCoefficient id="frictionCoefficient_0" lanes="gneE0_0" pos="185.48,47.62">
+        <step time="0.00" friction="1.11"/>
+        <step time="2.00" friction="0.10"/>
+        <step time="4.00" friction="0.20"/>
+        <step time="6.00" friction="0.30"/>
+        <step time="40.00" friction="0.50"/>
+        <step time="50.00" friction="1.50"/>
+        <step time="60.00" friction="0.80"/>
+        <step time="70.00" friction="0.60"/>
+        <step time="80.00" friction="0.70"/>
+        <step time="90.00" friction="0.99"/>
+    </frictionCoefficient>
+    <variableSpeedSign id="variableSpeedSign_0" lanes="-gneE0_0" pos="-156.83,47.21">
+        <step time="0.00" speed="50.00"/>
+        <step time="10.00" speed="10.00"/>
+        <step time="20.00" speed="30.00"/>
+    </variableSpeedSign>
+</additionals>

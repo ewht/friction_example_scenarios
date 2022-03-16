@@ -1,0 +1,40 @@
+<routes>
+    <vType id="normal" vClass="passenger" maxSpeed="40" speedFactor="0.9" speedDev="0.2" sigma="0.5" />
+    <vType id="slow" vClass="passenger" maxSpeed="10" speedFactor="1" speedDev="0.1" sigma="0.1" />
+    <vType id="trailer" vClass="trailer"  maxSpeed="30" speedFactor="1.1" speedDev="0.1" />
+    <vType id="coach" vClass="coach"  maxSpeed="30" speedFactor="1." speedDev="0.1" />
+	
+    <route id="routeLR" color="0,1,0" edges="gneE0 gneE1 gneE2"/>
+	<route id="routeRL" color="0,1,0" edges="-gneE2 -gneE1 -gneE0"/>
+	
+	<vehicle id="LR0" type="slow" route="routeLR" depart="0" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+	<vehicle id="RL0" type="slow" route="routeRL" depart="0" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+		<vehicle id="LR1" type="slow" route="routeLR" depart="5" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+	<vehicle id="RL1" type="slow" route="routeRL" depart="5" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+		<vehicle id="LR2" type="slow" route="routeLR" depart="10" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+	<vehicle id="RL2" type="slow" route="routeRL" depart="10" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+		<vehicle id="LR3" type="slow" route="routeLR" depart="15" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+	<vehicle id="RL3" type="slow" route="routeRL" depart="15" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+		<vehicle id="LR4" type="slow" route="routeLR" depart="20" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+	<vehicle id="RL4" type="slow" route="routeRL" depart="20" color="0,1,0">
+		<param key="has.Seeroad.device" value="true"/>
+	</vehicle>
+</routes>
